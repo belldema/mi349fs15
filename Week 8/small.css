@@ -1,0 +1,55 @@
+.column{
+  width:100%;
+  float:left;
+  font-weight: 100;
+  padding: 50px 0px;
+  background-color:grey;
+
+}
+header {
+  width:100%;
+  text-align:center;
+  color:grey;
+  padding: 50px 0px;
+  font-size:14px;
+  background-color:white;
+}
+
+@media (min-width:400px) and (max-width:800px){
+  div {
+     background-color:white;
+     text-align: inherit;
+   }
+@media not screen, screen and (max-width:400px;){
+  nav, .ad {
+    display:none;
+  }
+
+a {
+  text-decoration::none;
+  color:inherit;
+}
+
+}
+
+/*
+INDIVIDUAL/BACK-TO-BACK
+*/
+@media (min-width: 400px) and (max-width:799px){
+  div{
+    color:red;
+    border: 1px solid red;
+  }
+}
+@media (min-width:800px)and (max-width:1199px){
+  div{
+    color:red;
+    border-radius: 5px;
+  }
+}
+@media (min-width:1200px){
+div{
+    color:orange;
+    border-radius: 10px;
+  }
+}
